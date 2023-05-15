@@ -1,2 +1,2 @@
-# G5_NotG5
-This is the project from team No.5 in APTECH
+# G1_NotG1
+This is the project from team No.1 in APTECH
