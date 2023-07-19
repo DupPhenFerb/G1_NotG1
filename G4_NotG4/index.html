@@ -1,0 +1,122 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>  
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Montserrat:wght@100;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html "><img src="logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="#">HOME</a> </li>
+                    <li><a href="Untitled-1.html">ABOUT</a> </li>
+                    <li><a href="1.html">BLOG</a> </li>
+                    <li><a href="#">CONTACT</a> </li> 
+                </ul>
+        </div>
+             <i class="fa fa-bars" onclick="showMenu()"> </i>
+    </nav>
+    <div class="text-box">
+        <h1>Adverland</h1>
+        <p>Our Weekly Passes are the Cheapest !<br/> 2 rides for a price of 1!</p>
+        <a href="/buy_ticket/index.html" class="hero-btn">BUY TICKETS</a>
+    </div>
+</section>
+<!-- About -->
+<section class="about">
+    <h1>About us</h1>
+    <h2>Your smile, our smile.</h2>
+    <p>Fun for everyone! Here's all you need to know about navigating the park and <br>making the most of your day.</p>
+    <p>The Season Pass Center will open for early processing in April.<br> For a complete schedule, please visit the Season Pass Center hours page.</p>
+    <a href="/buy_ticket/index.html" class="about-btn">BUY TICKETS</a>
+</section>
+<!-- Rides
+<section class="rides">
+    <h1>Attractions & Rides</h1>
+    <div class="row">
+        <div class="rides-col">
+            <p>Family ride</p>
+        </div>
+        <div class="rides-col">
+            <p>Kiddie rides</p>
+        </div>
+    </div>
+    <a href="#" class="rides-btn">ALL RIDES</a>
+
+</section> -->
+<section class="rides">
+    <h1>Attractions & Rides</h1>
+    <div class="row">
+        <div class="rides-col">
+            <img src="event2-370x540.jpg">
+            <div class="layer">
+                <h3>Family Rided</h3>
+            </div>
+        </div>
+        <div class="rides-col">
+            <img src="event3-370x540.jpg">
+            <div class="layer">
+                <h3>Kiddie Rides</h3>
+            </div>
+        </div>
+        <a href="/buy_ticket/index.html" class="rides-btn">BUY TICKETS</a>
+    </div>
+</section>
+<!-- ------------events-------------->
+<section class="events">
+    <h1>Buy 2 Tickets<br>Get 1<h1>
+    <h2>FREE</h2>
+    <p>Share the happy with our <strong>Buy 2, Get 1 FREE</strong> offer when <br> you purchase onlineby July 13! Tickets valid all summer.</p>
+    <a href="#" class="events-btn">MORE INFO</a>
+</section>
+<section class="season-passes">
+    <h1>Today's Special<br> Variety and Value</h1>
+    <p>Enjoy unlimited visits all year, sweet discounts, 1-hour early access including the </br> all-new Hershey Triple Tower, and more all for less than the price of 3 visits!</p>
+    <a href="#" class="season-passes-btn">ALL RIDES</a>
+</section>
+<!-- ---------Recent Blog Entries-------->
+<section class="blog">
+    <h1>Recent Blog Entries</h1>
+</section>
+<!-- ---------Sign Up for a Newsletter----->
+<section class="sign-up">
+    <h1>Sign Up for a Newsletter</h1>
+    <p>Sign up and be the first to know about all the latest stuff!</p>
+    <div class="box">
+        <form action="#">
+            <div class="form-box">
+                <input type="text" name="EmailAdress"placeholder="YOUR EMAIL ADRESS">
+                <button>SIGN UP</button>
+            </div>
+        </form>
+    </div>
+</section>
+<!-- <section class="footer">
+    <div class="row">
+        <div class="footer-col">
+            <img src="logo.png" alt="">
+        </div>
+        <div class="footer-col">
+            <h1>Pages</h1>
+        </div>
+        <div class="footer-col">
+            <h1>Hours</h1>
+        </div>
+        <div class="footer-col">
+            <h1>Contacts</h1>
+        </div>
+    </div>
+</section> -->
+<!----------JavaScipt for Toggle Menu-------->
+    <script src="script.js"></script>
+ </body>
+ </html>
